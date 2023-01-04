@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: FiraCode;
+    src: local("FiraCode"),
+    url("/assets/fonts/FiraCode-Regular.ttf") format("truetype");
+}
+
+@layer components {
+    .post {
+        @apply mt-8 prose-xl text-gray-200 mx-4;
+    }
+
+    .post h1:first-of-type {
+        @apply font-bold text-center;
+    }
+
+    .post h3:first-of-type {
+        @apply text-sm -mt-8 text-gray-200 text-center mb-12;
+    }
+
+    .nav-link {
+        @apply px-2 mx-1 hover:text-neutral-800 hover:bg-gray-200 rounded-md transition-all duration-100;
+    }
+}
+
+body {
+    font-family: "FiraCode", serif;
+}

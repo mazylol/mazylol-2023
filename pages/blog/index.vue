@@ -1,0 +1,1 @@
+<template>Hello there MAKE NAVBAR WORK MAKE INDEX PRETTY MAKE BLOG INDEX</template>
